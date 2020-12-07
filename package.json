@@ -39,7 +39,8 @@
     },
     "dependencies": {
         "bootstrap": "4.5.3",
-        "mqtt": "^4.2.6"
+        "mqtt": "^4.2.6",
+        "socket.io": "^3.0.3"
     },
     "devDependencies": {
         "autoprefixer": "10.0.1",
