@@ -38,7 +38,8 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-creative.git"
     },
     "dependencies": {
-        "bootstrap": "4.5.3"
+        "bootstrap": "4.5.3",
+        "mqtt": "^4.2.6"
     },
     "devDependencies": {
         "autoprefixer": "10.0.1",
