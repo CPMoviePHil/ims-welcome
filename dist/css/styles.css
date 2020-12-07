@@ -10010,6 +10010,20 @@ hr.light {
   padding: 8rem 0;
 }
 
+.visitor-name {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.today-info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -10075,7 +10089,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/background_1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
