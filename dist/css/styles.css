@@ -10016,6 +10016,14 @@ hr.light {
   position: absolute;
 }
 
+.mqtt-block {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
 .today-info {
   position: absolute;
   bottom: 0;

@@ -10,7 +10,8 @@
         "build:scss": "node scripts/build-scss.js",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start:debug": "npm run build && node scripts/start-debug.js",
+        "mqtt": "node scripts/mqtt.js"
     },
     "description": "Creative is a stylish one page HTML theme built with Bootstrap.",
     "keywords": [
@@ -39,8 +40,11 @@
     },
     "dependencies": {
         "bootstrap": "4.5.3",
+        "express": "^4.17.1",
+        "http": "0.0.1-security",
         "mqtt": "^4.2.6",
-        "socket.io": "^3.0.3"
+        "socket.io": "^3.0.3",
+        "socket.io-client": "^3.0.3"
     },
     "devDependencies": {
         "autoprefixer": "10.0.1",
